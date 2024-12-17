@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--debut header--> 
@@ -31,16 +32,13 @@
 
     </header>
    <!--fin de header--> 
-       <h2><i>Bienvenue sur mon Portfolio</i></h2>
+      
        <br>
-       <p>Le métier de développement Web est en constante évolution avec l'apparition de nouvelles technologies et méthodes de travail,
+       <p class="para1">Le métier de développement Web est en constante évolution avec l'apparition de nouvelles technologies et méthodes de travail,
         telles que LE DEVELOPPEMENT MOBILE(applications mobiles) et LE DEVELOPPEMENT CLOUD. Les développeurs peuvent aussi se spécialiser dans des domaines spécifiques
         comme la cybersécurité, l'IA ou l'optimisation des performances Web. </p>
     
        <br>
-    <!--ajout d'image-->
-
-    <img src="image-couv.jpg" alt="image" width="2000" height="400"> 
       
       
        <!--ajout d'une vidéo-->
@@ -56,7 +54,7 @@
       <section id="intro">
 
       <h2><i>HOME</i></h2>
-        <ul>
+        <ul class="liste1">
           <li>NOM: Pohonin</li>
           <li>PRENONS: Joel Osée</li>
 
@@ -71,10 +69,10 @@
  
   <h2><i>ABOUT ME</i></h2>
     
-     <p>Je suis un développeur web, passionné par la magie du web . Avec 3 années d'expérience dans métier de développeur Web, j'ai enfin les moyens d'apporter mon expertise au developpement de la société
+     <p class="para2">Je suis un développeur web, passionné par la magie du web . Avec 3 années d'expérience dans métier de développeur Web, j'ai enfin les moyens d'apporter mon expertise au developpement de la société
       . Mon objectif est de créer des solutions innovantes et adaptées aux besoins de mes clients et partenaires.
        ,j'ai développé une expérience dans: </p>
-     <ul>
+     <ul class="liste2">
       <li>Développement Web Frontend/Backend</li>
       <li>Développement d'Application</li>
       <li>Design Graphique</li>
@@ -86,12 +84,15 @@
 </section>
 <!--fin de la section about me-->
 <!--début de la section work-->
-<section id="work">
+<main class="newcolor">
+
+
+<section class="work">
 
   <h2><i>WORK</i></h2>
    
-  <h3>Mes Réalisations</h3>
- <ol>
+  <h3 class="soustitre">Mes Réalisations</h3>
+ <ol class="liste3">
   <li><strong>Portfolio Personnel</strong></li>
    <ul>
      <li><strong>Description :</strong>Développement d' un site web personnel pour présenter mon parcours,
@@ -125,8 +126,8 @@
 <section id="#formulaire">
  
   <h2>contactez-moi!</h2>
- 
-  <form action="">
+ <div class="mon-box">
+  <form>
       <!-- Champ pour le nom -->
       <label for="nom">Nom :</label>
       <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
@@ -150,7 +151,7 @@
       <!-- Bouton d'envoi -->
       <button type="submit">Envoyer</button>
   </form>
-
+ </div>
 </section>
 <!--fin de la section contact-->
 <br><br>
@@ -167,8 +168,8 @@
 <p>Mon contact: +2250709105074/ 0708797657</p>
 
 
-</footer>
-
+  </footer>
+ </main>
 
 </body>
 
