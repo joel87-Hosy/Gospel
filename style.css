@@ -20,6 +20,14 @@ h2 {
     width: 500px;
     display: block;
     margin: auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.position {
+    position: fixed;
+    top: 0;;
+    right: 18px;
+    cursor: pointer;
 }
 .para1 {
     color: rgb(229, 245, 11);
@@ -54,11 +62,11 @@ font-size: 20px;
 
 .derouler:hover  .para2 {
    display: block ;
-   transition: 0.2s;
+   transition: 1s;
 }
 .derouler:hover .liste2 li{
     display: block;
-    transition: 0.2s;
+    transition: 1s;
 }
 .soustitre {
     text-align: center;
