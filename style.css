@@ -36,16 +36,16 @@ color: rgb(189, 207, 20);
 font-size: 20px;
 }
 .para2 {
-    color: yellow;
+    color: rgb(250, 16, 16);
     font-size: 20px;
+    background-color: white;
 }
 .liste2 li {
-    color: rgb(245, 229, 6);
-    background-color: rgb(63, 63, 245);
+    color: rgb(204, 38, 16);
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
-
+    background-color: white;
 }
 
 .soustitre {
@@ -62,15 +62,15 @@ strong {
 }
 .nav-bar li {
     display: inline;
-    background-color: aqua;
-    padding: 20px 0px opx;
+    padding: 10px 0px 0px;
+    background-color: white;
 
 }
 h2:hover {
   background-color: black;  
   transition: 0.5s; 
 }
-.mon-box form {
+form {
     border: solid black 1px;
     padding: 10px;
     width: fit-content;
@@ -81,16 +81,16 @@ h2:hover {
     background-color: rgb(247, 94, 94);
     box-shadow: 6px 6px 0px black;
 }
-.mon-box label:hover {
+form label:hover {
   background-color: blue;
 }
-.mon-box input:hover {
+form input:hover {
     background-color: black;
 }
-.mon-box button:hover {
+form button:hover {
     background-color: blue;
 }
-.mon-box textarea:hover {
+form textarea:hover {
     background-color:blue;
 }
 footer p {
