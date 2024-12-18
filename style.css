@@ -94,6 +94,9 @@ strong {
     background-color: white;
 
 }
+.nav-bar li:hover{
+    background-color: brown;
+}
 h2:hover {
   background-color: black;  
   transition: 0.5s; 
